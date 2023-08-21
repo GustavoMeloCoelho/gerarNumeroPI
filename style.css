@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    font-size: 52px;
+    background-color: bisque;
+}
+
+#piNumberContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;    
+}
+
+.buttonContainer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background-color: red;
+}
+
+@media (max-width: 289px) {
+    .container {
+        font-size: 39px;
+    }
+  }
+
+  @media (max-width: 191px) {
+    .container {
+        font-size: 30px;
+    }
+    .buttonNewNumber{
+
+    }
+  }  
