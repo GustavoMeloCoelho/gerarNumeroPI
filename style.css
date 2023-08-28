@@ -31,7 +31,14 @@
     justify-content: center;   
 }
 
-
+.card {
+  border: 3px solid #333333;;
+  background-color: rgb(232, 239, 237);
+  border-radius: 5px;
+  padding: 17px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
 
 
 .buttonNewNumber {
@@ -59,21 +66,28 @@
  
 }
 
+.buttonNewNumber:active {
+  background-color:  #969090;
+}
+
 .buttonNewNumber  {
   background-color: #bbb9b9;
 }
 
 @media (max-width: 289px) {
     .container {
-        font-size: 39px;
+        font-size: 45px;
     }
   }
-
-  @media (max-width: 191px) {
-    .container {
-        font-size: 30px;
-    }
-    .buttonNewNumber{
-
-    }
-  }  
+@media (max-width: 191px) {
+  .container {
+      font-size: 35px;
+  }
+}  
+@media (max-width: 253px) {
+  .card {
+    padding: 14px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  } 
+}
