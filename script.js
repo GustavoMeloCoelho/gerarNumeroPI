@@ -3,7 +3,7 @@ let alphabet = ["A", "B", "C", "D", "E", "F", "H",
 
 
 function generateNumbers() {
-    let numberToRandom = ((Math.random() * 9999) + 1);
+    let numberToRandom = ((Math.random() * 9999) + 100);
     let randomNumber = Math.floor(numberToRandom); 
     return randomNumber;
 };
