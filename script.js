@@ -3,7 +3,7 @@ let alphabet = ["A", "B", "C", "D", "E", "F", "H",
 
 
 function generateNumbers() {
-    let numberToRandom = ((Math.random() * 9999) + 100);
+    let numberToRandom = ((Math.random() * 9999) + 1);
     let randomNumber = Math.floor(numberToRandom); 
     return randomNumber;
 };
@@ -15,7 +15,7 @@ function generateLetters() {
 };
 
 function generatePiNumber() {
-    let number = generateLetters()+generateNumbers();
+    let number = generateNumbers()+generateLetters();
     return number;
 }; 
 
