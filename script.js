@@ -1,5 +1,5 @@
-let alphabet = ["A", "B", "C", "D", "E", "F", "H",
-     "L", "M", "N", "P", "E", "S", "T", "U", "V"];
+let alphabet = ["A", "B", "C", "D", "E", "F",
+     "L", "M", "N", "P", "E", "T", "U", "V"];
 
 
 function generateNumbers() {
